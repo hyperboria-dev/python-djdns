@@ -63,7 +63,7 @@ function setup_virtualenv {
 }
 
 function setup_data {
-    local repo="https://github.com/campadrenalin/djdns-hype-flat.git"
+    local repo="https://github.com/hyperboria-dev/djdns-hype-flat.git"
     if [[ -d $data_dir ]]; then
         echo "Not creating $data_dir, already exists"
         return
