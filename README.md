@@ -47,7 +47,7 @@ This project uses the Github issue tracker. If you don't use GH and don't intend
 This is the new and vastly simpler system for installing DJDNS in a production environment on your own server. All you need to do to install and start DJDNS, such that it starts immediately and on reboots, and is controllable through /etc/init.d/djdns?
 
 ```bash
-$ git clone https://github.com/campadrenalin/python-djdns
+$ git clone https://github.com/hyperboria-dev/python-djdns
 $ sudo python-djdns/scripts/install.sh
 ```
 
