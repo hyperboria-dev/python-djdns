@@ -28,4 +28,4 @@ function update_source_data {
 
 update_djdns
 update_source_data
-/etc/init.d/djdns restart
+systemctl restart djdns 
